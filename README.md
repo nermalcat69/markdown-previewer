@@ -1,6 +1,7 @@
-# Koenig
+# MDX Previewer with Koenig 
 
-This is a mono repository, managed with [lerna](https://lerna.js.org/).
+
+
 
 To get started in this repo:
 
