@@ -1,0 +1,28 @@
+{
+  "name": "@tryghost/kg-default-atoms",
+  "version": "4.0.3",
+  "repository": "https://github.com/TryGhost/Koenig/tree/master/packages/kg-default-atoms",
+  "author": "Ghost Foundation",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo \"Implement me!\"",
+    "test": "NODE_ENV=testing c8 --all --reporter text --reporter cobertura mocha './test/**/*.test.js'",
+    "lint": "eslint . --ext .js --cache",
+    "posttest": "yarn lint"
+  },
+  "engines": {
+    "node": "^14.18.0 || ^16.13.0 || ^18.12.1"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "c8": "8.0.1",
+    "simple-dom": "1.4.0"
+  }
+}

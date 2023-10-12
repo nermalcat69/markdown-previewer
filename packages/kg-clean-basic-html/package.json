@@ -1,0 +1,43 @@
+{
+  "name": "@tryghost/kg-clean-basic-html",
+  "version": "3.0.36",
+  "repository": "https://github.com/TryGhost/Koenig/tree/master/packages/kg-clean-basic-html",
+  "author": "Ghost Foundation",
+  "license": "MIT",
+  "main": "cjs/clean-basic-html.js",
+  "module": "es/clean-basic-html.js",
+  "source": "lib/clean-basic-html.js",
+  "scripts": {
+    "dev": "echo \"Implement me!\"",
+    "build": "rollup -c",
+    "prepare": "NODE_ENV=production yarn build",
+    "pretest": "yarn build",
+    "test": "NODE_ENV=testing c8 --all --reporter text --reporter cobertura mocha './test/**/*.test.js'",
+    "lint": "eslint . --ext .js --cache",
+    "posttest": "yarn lint"
+  },
+  "engines": {
+    "node": "^14.18.0 || ^16.13.0 || ^18.12.1"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "cjs/",
+    "es/",
+    "lib/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
+    "@rollup/plugin-babel": "6.0.4",
+    "c8": "8.0.1",
+    "jsdom": "22.1.0",
+    "mocha": "10.2.0",
+    "rollup": "2.79.1",
+    "should": "13.2.3",
+    "sinon": "16.1.0"
+  }
+}
