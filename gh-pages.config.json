@@ -1,8 +1,0 @@
-{
-    "name": "Koenig Demo",
-    "description": "Koenig Demo",
-    "baseUrl": "/Koenig/",
-    "repository": {
-        "url": "https://github.com/TryGhost/Koenig"
-    }
-}
