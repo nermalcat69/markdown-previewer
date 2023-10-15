@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "preview-mdx",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,25 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.0.2",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "lucide-react": "^0.287.0",
-    "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.7"
+    "next": "13.5.4"
   },
   "devDependencies": {
+    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4",
     "postcss": "^8",
-    "tailwindcss": "^3",
-    "typescript": "^5"
+    "tailwindcss": "^3"
   }
 }
