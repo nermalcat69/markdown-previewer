@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6"
+
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { MainNav } from "@/components/main-nav"
@@ -16,11 +17,9 @@ export function SiteHeader() {
               target="_blank"
               rel="noreferrer"
             >
-              <div
-                className={buttonVariants()}
-              >
+              <div className={buttonVariants()}>
                 <div className="inline-flex items-center py-1 px-2 space-x-3 rounded-md  ">
-                  <FaGithub className="h-6 w-6"/>
+                  <FaGithub className="h-6 w-6" />
                   <text className="font-semibold">Contribute</text>
                 </div>
               </div>
@@ -29,8 +28,7 @@ export function SiteHeader() {
               href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
-            >
-            </Link>
+            ></Link>
           </nav>
         </div>
       </div>
