@@ -23,11 +23,6 @@ export function Header() {
                 </div>
               </div>
             </Link>
-            <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-            ></Link>
           </nav>
         </div>
       </div>
