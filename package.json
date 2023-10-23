@@ -1,6 +1,6 @@
 {
-  "name": "next-template",
-  "version": "0.0.2",
+  "name": "Preview-Mdx",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "nerm": "next dev",
