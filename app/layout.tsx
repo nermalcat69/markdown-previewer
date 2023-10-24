@@ -4,10 +4,10 @@ import { Metadata } from "next"
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
-import { Header } from "@/components/header"
+import { Header } from "@/components/globals/header"
 import { Main } from "@/components/main"
-import { Footer } from "@/components/footer"
-import { TailwindIndicator } from "@/components/tailwind-indicator"
+import { Footer } from "@/components/globals/footer"
+import { TailwindIndicator } from "@/components/globals/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {

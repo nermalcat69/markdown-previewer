@@ -1,4 +1,4 @@
-import { lastUpdated } from "@/components/ui/last-updated"
+import { lastUpdated } from "@/components/markdownPreviewer/last-updated"
 
 export function Main() {
   return (
