@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "nermalize": "next dev",
+    "tunnel": "tunnel share",
     "wermalize": "next build",
     "nermal": "next start",
     "lint": "next lint",
