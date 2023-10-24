@@ -47,7 +47,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <Header />
               <div className="flex-1">{children}</div>
             </div>
-            <Main />
             <TailwindIndicator />
             <Footer />
           </ThemeProvider>

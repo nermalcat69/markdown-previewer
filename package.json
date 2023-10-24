@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "nerm": "next dev",
-    "werm": "next build",
+    "nermalize": "next dev",
+    "wermalize": "next build",
     "nermal": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",

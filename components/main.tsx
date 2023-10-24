@@ -1,9 +1,9 @@
 import { lastUpdated } from "@/components/ui/last-updated"
 
 export function Main() {
-    return (
-        <section>
+  return (
+    <div>
         {lastUpdated() }
-        </section>
+    </div>
   )
 }

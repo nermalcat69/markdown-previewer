@@ -20,7 +20,7 @@ export function MainNav({ items }: MainNavProps) {
           {siteConfig.name}
         </span>
       </Link>
-        <span>/</span>
+        <span className="text-gray-800">/</span>
       {items?.length ? (
         <nav className="flex gap-6">
           {items?.map(
