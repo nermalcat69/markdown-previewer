@@ -41,12 +41,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
-            <div className="relative flex flex-col min-h-screen">
-              <Header />
-              <div className="flex-1">{children}</div>
-            </div>
-            <TailwindIndicator />
-            <Footer />
+          <div className="relative flex flex-col min-h-screen">
+            <Header />
+            <div className="flex-1">{children}</div>
+          </div>
+          <TailwindIndicator />
+          <Footer />
         </body>
       </html>
     </>

@@ -2,8 +2,7 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "Nermalcat69",
-  description:
-    "Markdown Previewer for your markdown needs :)",
+  description: "Markdown Previewer for your markdown needs :)",
   mainNav: [
     {
       title: "Markdown Previewer",
