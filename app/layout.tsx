@@ -7,7 +7,6 @@ import { cn } from "@/lib/utils"
 import { Footer } from "@/components/globals/footer"
 import { Header } from "@/components/globals/header"
 import { TailwindIndicator } from "@/components/globals/tailwind-indicator"
-import { Main } from "@/components/main"
 
 export const metadata: Metadata = {
   title: {
