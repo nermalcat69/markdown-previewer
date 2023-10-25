@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Nermalcat69",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Markdown Previewer for your markdown needs :)",
   mainNav: [
     {
       title: "Markdown Previewer",
