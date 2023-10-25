@@ -1,5 +1,4 @@
 import { buttonVariants } from "@/components/globals/button"
-import { Textarea } from "@/components/globals/textarea"
 
 export function Preview() {
   return (
