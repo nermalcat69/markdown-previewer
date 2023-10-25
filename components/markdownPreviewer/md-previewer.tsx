@@ -1,8 +1,3 @@
-
 export function markdownPreviewer() {
-  return (
-    <section>
-      
-    </section>
-  )
+  return <section></section>
 }

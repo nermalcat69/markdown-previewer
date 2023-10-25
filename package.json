@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "nermalize": "next dev",
-    "tunnel": "tunnel share", // Tunnel cli is required (https://tunnel.dev)
+    "tunnel": "tunnel share",
     "wermalize": "next build",
     "nermal": "next start",
     "lint": "next lint",

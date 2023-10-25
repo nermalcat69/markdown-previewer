@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FaXTwitter, FaLinkedinIn,FaGithub } from "react-icons/fa6"
+import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6"
 
 import { siteConfig } from "@/config/site"
 
@@ -7,7 +7,12 @@ export function Footer() {
   return (
     <header className="bg-background sticky bottom-0 z-40 w-full border-t">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
-      <span className="text-gray-800">Powered by <span className="font-bold hover:text-gray-600 cursor-pointer">Vercel</span></span>
+        <span className="text-gray-800">
+          Powered by{" "}
+          <span className="font-bold hover:text-gray-600 cursor-pointer">
+            Vercel
+          </span>
+        </span>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center ">
             <Link

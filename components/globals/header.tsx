@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { FaGithub } from "react-icons/fa6"
+
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/globals/button"
 import { MainNav } from "@/components/globals/main-nav"
