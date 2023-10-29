@@ -1,4 +1,4 @@
-import { buttonVariants } from "@/components/globals/button"
+import { buttonVariants } from "@/components/ui/button"
 
 export function Preview() {
   return (

@@ -1,5 +1,5 @@
-import { buttonVariants } from "@/components/globals/button"
-import { Textarea } from "@/components/globals/textarea"
+import { buttonVariants } from "@/components/ui/button"
+import { Textarea } from "@/components/ui/textarea"
 
 export function markdownCode() {
   return (

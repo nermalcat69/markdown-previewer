@@ -1,6 +1,9 @@
 import { lastUpdated } from "@/components/markdownPreviewer/last-updated"
 import { markdownCode } from "@/components/markdownPreviewer/markdown-code"
 import { Preview } from "@/components/markdownPreviewer/preview"
+import  Info  from "@/components/globals/info"
+
+
 
 export function Main() {
   return (
@@ -10,6 +13,7 @@ export function Main() {
         <div className=" ">{markdownCode()}</div>
         <div className="">{Preview()}</div>
       </div>
+      <Info />
     </section>
   )
 }
