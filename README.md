@@ -7,8 +7,3 @@ markdown previewer with sleek user interface
 - Next.js 13 App Directory
 - Shadcn Ui
 - Tailwind CSS
-
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
