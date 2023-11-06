@@ -1,9 +1,7 @@
+import Info from "@/components/globals/info"
 import { lastUpdated } from "@/components/markdownPreviewer/last-updated"
 import { markdownCode } from "@/components/markdownPreviewer/markdown-code"
 import { Preview } from "@/components/markdownPreviewer/preview"
-import  Info  from "@/components/globals/info"
-
-
 
 export function Main() {
   return (

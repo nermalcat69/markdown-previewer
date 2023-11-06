@@ -15,6 +15,5 @@ export default function Info() {
         </AccordionContent>
       </AccordionItem>
     </Accordion>
-
   )
 }
