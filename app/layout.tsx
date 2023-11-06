@@ -1,8 +1,8 @@
 import "@/styles/globals.css"
+import { GeistSans } from 'geist/font'
 import { Metadata } from "next"
 
 import { siteConfig } from "@/config/site"
-import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Footer } from "@/components/globals/footer"
 import { Header } from "@/components/globals/header"
@@ -31,13 +31,12 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <>
-      <html lang="en" suppressHydrationWarning>
+    <div>
+      <html lang="en" className={GeistSans.className} suppressHydrationWarning>
         <head />
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable
           )}
         >
           <div className="relative flex flex-col min-h-screen">
@@ -48,6 +47,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Footer />
         </body>
       </html>
-    </>
+    </div>
   )
 }
