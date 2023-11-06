@@ -1,6 +1,6 @@
 import "@/styles/globals.css"
-import { GeistSans } from 'geist/font'
 import { Metadata } from "next"
+import { GeistSans } from "geist/font"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -35,9 +35,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <html lang="en" className={GeistSans.className} suppressHydrationWarning>
         <head />
         <body
-          className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-          )}
+          className={cn("min-h-screen bg-background font-sans antialiased")}
         >
           <div className="relative flex flex-col min-h-screen">
             <Header />
