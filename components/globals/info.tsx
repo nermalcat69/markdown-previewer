@@ -9,9 +9,42 @@ export default function Info() {
   return (
     <Accordion type="single" collapsible>
       <AccordionItem value="item-1">
-        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+        <AccordionTrigger>
+          How do i utilize this markdown previewer ?
+        </AccordionTrigger>
         <AccordionContent>
-          Yes. It adheres to the WAI-ARIA design pattern.
+          Well you can write in the textarea of markdown code or fetch a
+          markdown file from github repository.
+        </AccordionContent>
+      </AccordionItem>
+
+      <AccordionItem value="item-2">
+        <AccordionTrigger>
+          p do i utilize this markdown previewer ?
+        </AccordionTrigger>
+        <AccordionContent>
+          Well you can write in the textarea of markdown code or fetch a
+          markdown file from github repository.
+        </AccordionContent>
+      </AccordionItem>
+
+      <AccordionItem value="item-3">
+        <AccordionTrigger>
+          How do i utilize this markdown previewer ?
+        </AccordionTrigger>
+        <AccordionContent>
+          Well you can write in the textarea of markdown code or fetch a
+          markdown file from github repository.
+        </AccordionContent>
+      </AccordionItem>
+
+      <AccordionItem value="item-4">
+        <AccordionTrigger>
+          How do i utilize this markdown previewer ?
+        </AccordionTrigger>
+        <AccordionContent>
+          Well you can write in the textarea of markdown code or fetch a
+          markdown file from github repository.
         </AccordionContent>
       </AccordionItem>
     </Accordion>

@@ -1,3 +1,4 @@
+import Cheatsheet from "@/components/globals/cheatsheet"
 import Info from "@/components/globals/info"
 import { lastUpdated } from "@/components/markdownPreviewer/last-updated"
 import { markdownCode } from "@/components/markdownPreviewer/markdown-code"
@@ -11,6 +12,7 @@ export function Main() {
         <div className=" ">{markdownCode()}</div>
         <div className="">{Preview()}</div>
       </div>
+      <Cheatsheet />
       <Info />
     </section>
   )
