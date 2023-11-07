@@ -20,7 +20,7 @@ export default function Info() {
 
       <AccordionItem value="item-2">
         <AccordionTrigger>
-          p do i utilize this markdown previewer ?
+          How do i utilize this markdown previewer ?
         </AccordionTrigger>
         <AccordionContent>
           Well you can write in the textarea of markdown code or fetch a

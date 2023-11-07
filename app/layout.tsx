@@ -31,7 +31,6 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <div>
       <html lang="en" className={GeistSans.className} suppressHydrationWarning>
         <head />
         <body
@@ -45,6 +44,5 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Footer />
         </body>
       </html>
-    </div>
   )
 }
