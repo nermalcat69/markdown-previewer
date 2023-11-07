@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6"
-
 import { siteConfig } from "@/config/site"
 
 export function Footer() {
