@@ -11,7 +11,6 @@ export const siteConfig = {
   ],
   links: {
     twitter: "https://twitter.com/nermalcat69",
-    github: "https://github.com/nermalcat69",
-    docs: "https://ui.shadcn.com",
+    github: "https://github.com/nermalcat69/markdown-previewer",
   },
 }
