@@ -10,7 +10,8 @@ export const siteConfig = {
     },
   ],
   links: {
+    contribute: "https://github.com/nermalcat69/markdown-previewer",
     twitter: "https://twitter.com/nermalcat69",
-    github: "https://github.com/nermalcat69/markdown-previewer",
+    github: "https://github.com/nermalcat69",
   },
 }
