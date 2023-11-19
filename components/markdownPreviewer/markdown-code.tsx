@@ -1,7 +1,20 @@
+"use client"
+
 import { buttonVariants } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
+import { useState } from "react";
 
-export function markdownCode() {
+
+
+export function MarkdownCode() {
+    const [form, setForm] = useState({ markdown: "" });
+
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
   return (
     <section className="">
       <span className="font-bold text-lg text-gray-700 tracking-normal	">
@@ -9,8 +22,11 @@ export function markdownCode() {
       </span>
       <div className="pt-4">
         <Textarea
+          name="markdownEditor"
+          id="markdownEditor"
           className="h-96 max-w-2xl"
           placeholder="Type your message here."
+          onChange={handleChange}
         />
       </div>
 
